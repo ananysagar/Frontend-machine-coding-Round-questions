@@ -5,28 +5,29 @@ Here are the best Reactjs machine coding round questions for freshers and experi
 ## 1. Build a simple counter app that has increment, descrment and reset functionality.
 
 
-import { useState, useEffect } from "react";<br/>
-export default function App() {<br/>
-  const [count, setCount] = useState(0);<br/>
+```import { useState, useEffect } from "react";
+export default function App() {
+  const [count, setCount] = useState(0);
 
-  function incrementCounter() {<br/>
-    setCount(count + 1);<br/>
-  }<br/>
-  function resetCounter() {<br/>
-    setCount(0);<br/>
-  }<br/>
-  function deccrementCounter() {<br/>
-    setCount(count - 1);<br/>
-  }<br/>
+  function incrementCounter() {
+    setCount(count + 1);
+  }
+  function resetCounter() {
+    setCount(0);
+  }
+  function deccrementCounter() {
+    setCount(count - 1);
+  }
 
-  return (<br/>
-    <div><br/>
-      <p>{count}</p><br/>
-      <div><br/>
-        <button onClick={incrementCounter}>Increment</button><br/>
-        <button onClick={resetCounter}>Reset</button><br/>
-        <button onClick={deccrementCounter}>Decrement</button><br/>
-      </div><br/>
-    </div><br/>
-  );<br/>
+  return (
+    <div>
+      <p>{count}</p>
+      <div>
+        <button onClick={incrementCounter}>Increment</button>
+        <button onClick={resetCounter}>Reset</button>
+        <button onClick={deccrementCounter}>Decrement</button>
+      </div>
+    </div>
+  );
 }
+```
