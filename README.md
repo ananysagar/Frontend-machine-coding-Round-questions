@@ -2,7 +2,7 @@
 
 Here are the best Reactjs machine coding round questions for freshers and experienced professionals who wants to master ReactJs skills. You can try to solve it first on your own without seeing the solution. Remember that by just copying my solution won't let you learn Reactjs. You need to use your brain and google everything to solve the below questions.
 
-## 1. Build a simple counter app that has increment, descrment and reset functionality.
+## 1. Build a simple counter app that has increment, decrement and reset functionality.
 
 
 ```import { useState, useEffect } from "react";
